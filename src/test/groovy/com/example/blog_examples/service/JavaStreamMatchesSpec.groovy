@@ -1,6 +1,6 @@
-package com.example.gene_test.service
+package com.example.blog_examples.service
 
-import com.example.gene_test.domain.Contact
+import com.example.blog_examples.domain.Contact
 import com.github.javafaker.Faker
 import spock.lang.Specification
 

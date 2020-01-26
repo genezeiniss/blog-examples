@@ -1,4 +1,4 @@
-package com.example.gene_test.exception;
+package com.example.blog_examples.exception;
 
 public class DuplicateContactException extends RuntimeException {
 }

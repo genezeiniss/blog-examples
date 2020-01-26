@@ -1,7 +1,7 @@
-package com.example.gene_test.service;
+package com.example.blog_examples.service;
 
-import com.example.gene_test.domain.Contact;
-import com.example.gene_test.exception.DuplicateContactException;
+import com.example.blog_examples.domain.Contact;
+import com.example.blog_examples.exception.DuplicateContactException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.LocalDate;
@@ -9,7 +9,7 @@ import java.time.Period;
 import java.util.List;
 import java.util.Optional;
 
-import static com.example.gene_test.StreamUtility.toSingleElementOrElseThrowException;
+import static com.example.blog_examples.StreamUtility.toSingleElementOrElseThrowException;
 
 @Slf4j
 public class JavaStreamReduce {

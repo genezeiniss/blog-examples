@@ -1,4 +1,4 @@
-package com.example.gene_test.domain;
+package com.example.blog_examples.domain;
 
 import lombok.Builder;
 import lombok.Value;

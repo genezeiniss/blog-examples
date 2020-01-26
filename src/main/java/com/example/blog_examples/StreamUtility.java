@@ -1,4 +1,4 @@
-package com.example.gene_test;
+package com.example.blog_examples;
 
 import java.util.function.BinaryOperator;
 import java.util.function.Supplier;

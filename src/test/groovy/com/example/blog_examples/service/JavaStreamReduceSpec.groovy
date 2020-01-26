@@ -1,7 +1,7 @@
-package com.example.gene_test.service
+package com.example.blog_examples.service
 
-import com.example.gene_test.domain.Contact
-import com.example.gene_test.exception.DuplicateContactException
+import com.example.blog_examples.domain.Contact
+import com.example.blog_examples.exception.DuplicateContactException
 import com.github.javafaker.Faker
 import spock.lang.Specification
 
@@ -59,6 +59,6 @@ class JavaStreamReduceSpec extends Specification {
                 Contact.builder()
                         .email("reduce.duplicate@mailinator.com")
                         .birthDate(LocalDate.now().minusYears(27))
-                        .build());
+                        .build())
     }
 }
