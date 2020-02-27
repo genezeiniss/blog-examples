@@ -2,6 +2,7 @@ package com.example.blog_examples.service
 
 import com.example.blog_examples.domain.Contact
 import com.example.blog_examples.exception.DuplicateContactException
+import com.example.blog_examples.service.stream.Reduce
 import com.github.javafaker.Faker
 import spock.lang.Specification
 
@@ -10,7 +11,7 @@ import java.time.LocalDate
 class JavaStreamReduceSpec extends Specification {
 
     Faker faker = new Faker()
-    JavaStreamReduce javaStreamReduce = new JavaStreamReduce()
+    Reduce javaStreamReduce = new Reduce()
 
     def "sum contact age using reduce"() {
         expect: "method expected to return sum"

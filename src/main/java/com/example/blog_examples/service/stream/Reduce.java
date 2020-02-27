@@ -1,4 +1,4 @@
-package com.example.blog_examples.service;
+package com.example.blog_examples.service.stream;
 
 import com.example.blog_examples.domain.Contact;
 import com.example.blog_examples.exception.DuplicateContactException;
@@ -12,7 +12,7 @@ import java.util.Optional;
 import static com.example.blog_examples.StreamUtility.toSingleElementOrElseThrowException;
 
 @Slf4j
-public class JavaStreamReduce {
+public class Reduce {
 
     public int sumContactsAgeUsingReduce(List<Contact> contacts) {
         return contacts.stream()

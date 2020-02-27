@@ -1,6 +1,7 @@
 package com.example.blog_examples.service
 
 import com.example.blog_examples.domain.Contact
+import com.example.blog_examples.service.stream.Matches
 import com.github.javafaker.Faker
 import spock.lang.Specification
 
@@ -11,7 +12,7 @@ import java.util.stream.Stream
 class JavaStreamMatchesSpec extends Specification {
 
     Faker faker = new Faker()
-    JavaStreamMatches javaStreamMatches = new JavaStreamMatches()
+    Matches javaStreamMatches = new Matches()
 
     def "any match"() {
         expect: "method expected to return true"

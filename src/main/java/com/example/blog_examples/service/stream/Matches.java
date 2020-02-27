@@ -1,4 +1,4 @@
-package com.example.blog_examples.service;
+package com.example.blog_examples.service.stream;
 
 import com.example.blog_examples.domain.Contact;
 import lombok.extern.slf4j.Slf4j;
@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 @Slf4j
-public class JavaStreamMatches {
+public class Matches {
 
     Predicate<Contact> emailConfirmationPredicate() {
         return contact -> contact.getEmailConfirmedOn() != null;
